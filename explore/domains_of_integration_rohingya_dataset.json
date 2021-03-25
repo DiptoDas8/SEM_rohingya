@@ -1,0 +1,71 @@
+{
+    "Markers and Means": {
+        "employment": {
+            "Sex": "sex",
+            "How satisfied are you with the number of job opportunities available to Rohingya adults in the camp?": "number_of_jobs",
+            "How satisfied are you with the income your family makes in the camp?": "income_from_jobs"
+        },
+        "housing": {
+            "How satisfied are you with the amount of space allocated to you and your family in the camp?": "housing_space",
+            "How satisfied are you with the level of hygiene and sanitation in the camp?": "sanitation_of_housing",
+            "Are you willing to go?": "relocation_to_bhasanchar"
+        },
+        "education": {
+            "Do you think there are enough educational opportunities for Rohingya children below the age of 12 in the camp?": "lt_12_education",
+            "Do you think there are enough educational opportunities for Rohingya adolescents (between 12 and 18 years old) in the camp?": "12_18_education",
+            "Do you think there are enough educational opportunities for Rohingya adults (older than 18 years old) in the camp?": "gt_18_education",
+            "How satisfied are you with the quality of education you and your family are receiving in the camp?": "quality_of_education"
+        },
+        "health": {
+            "Do you think there are enough healthcare facilities for Rohingya (like aid station, health centre, hospital)?": "number_of_healthcare_facilities",
+            "How satisfied are you with the quality of healthcare you and your family are receiving in the camp?": "quality_of_healthcare",
+            "How satisfied are you with the level of psychological support you and your family are receiving in the camp?": "psychological_healthcare"
+        }
+    },
+    "Social Connections": {
+        "social_links": {
+            "How satisfied are you with the overall help you and your family have been receiving from NGOs?": "help_from_ngo",
+            "How much do you trust the police/military/guards of camps in Bangladesh?": "trust_on_law_enforcement",
+            "How much do you trust the NGOs in the camp?": "trust_on_ngo"
+        },
+        "social_bridges": {
+            "Do you consider any Bangladeshis as your friends?": "friendship_with_host",
+            "Do you believe Rohingya and Bangladeshis can be good friends?": "possibility_of_friendship_with_host",
+            "Do you think that there are Rohingya families who have married their daughter off to Bangladeshi boys/men?": "marriage_to_host"
+        },
+        "social_bonds": {
+            "How satisfied are you with the level of social support you and your family receive from neighbours and friends?": "bond_with_neighbors",
+            "How much do you trust the Majhis?": "bond_with_majhis",
+            "How much do you trust the Imam (religious leader)?": "bond_with_imams",
+            "Do you have enough good friends in the camp?": "number_of_friends",
+            "How often do you talk with Rohingya people outside Bangladesh and Myanmar?": "bond_with_rohingyas_outside"
+        }
+    },
+    "Facilitators": {
+        "language_and_cultural_knowledge": {
+            "To what extent do you feel at home in the camp in Bangladesh now?": "cultural_mixability",
+            "Do you think you are able to exercise your religion freely in the camp?": "removal_of_religious_barriers",
+            "How satisfied are you with the number of religious facilities (like madrasas, mosques) in the camp?": "number_of_religious_facilities"
+        },
+        "safety_and_stability": {
+            "Do you often feel stressed or overwhelmed by your situation?": "stress",
+            "Do you think the situation in the camp is better now or 6 months ago?": "improvement_in_6mos",
+            "How often do you hear people talking about violent groups in the camp?": "discussion_about_violent_groups",
+            "How do you think violence in the camp has changed over time?": "number_of_violence",
+            "Do you think that sexual harassment in the camp happens often?": "number_of_sexual_harrassment",
+            "How afraid are you to leave your child unattended in the camp after it gets dark?": "fear_of_children_safety",
+            "Do you think that there are Rohingya families whose child has gone missing since they moved to Bangladesh?": "fear_of_missing_children",
+            "Do you personally know any Rohingya families whose child has gone missing since they moved to this camp?": "knowledge_of_missing_children",
+            "Have you thought about leaving to go to another country other than Myanmar and Bangladesh?": "intention_to_leave",
+            "How scared are you to leave for another country?": "fear_of_leaving_again",
+            "How do you feel about the future?": "feeling_about_future"
+        }
+    },
+    "Foundation": {
+        "rights_and_citizenship": {
+            "Do you think that the government of Myanmar will recognize the rights of Rohingya in the next two years?": "rights_in_home",
+            "If the Myanmar government recognizes the rights of Rohingya in the next two years, will you return to Myanmar?": "return_to_home",
+            "Do you think that repatriation to Myanmar will happen in the next two years?": "repatriation_in_home"
+        }
+    }
+}

@@ -63,7 +63,7 @@ def sem(name, data):
 
 sem('all', dataset)
 
-# mdata = dataset.loc[dataset['sex']==1]
-# sem('male', mdata)
-# fdata = dataset.loc[dataset['sex']==0]
-# sem('female', fdata)
+mdata = dataset.loc[dataset['sex']==1]
+sem('male', mdata)
+fdata = dataset.loc[dataset['sex']==0]
+sem('female', fdata)

@@ -15,7 +15,7 @@ domains_of_integration_refugee_dataset = {
         },
         'education':{
             'Do you think there are enough educational opportunities for Rohingya children below the age of 12 in the camp?': 'lt_12_education',
-            'Do you think there are enough educational opportunities for Rohingya adolescents (between 12 and 18 years old) in the camp?': '12_18_education',
+            'Do you think there are enough educational opportunities for Rohingya adolescents (between 12 and 18 years old) in the camp?': 'between_12_18_education',
             'Do you think there are enough educational opportunities for Rohingya adults (older than 18 years old) in the camp?': 'gt_18_education',
             'How satisfied are you with the quality of education you and your family are receiving in the camp?': 'quality_of_education'
         },

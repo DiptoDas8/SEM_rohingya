@@ -1,0 +1,231 @@
+lavaan 0.6-7 did NOT end normally after 912 iterations
+** WARNING ** Estimates below are most likely unreliable
+
+  Estimator                                         ML
+  Optimization method                           NLMINB
+  Number of free parameters                         87
+                                                      
+  Number of observations                          1043
+                                                      
+Model Test User Model:
+                                                      
+  Test statistic                                    NA
+  Degrees of freedom                                NA
+
+Parameter Estimates:
+
+  Standard errors                             Standard
+  Information                                 Expected
+  Information saturated (h1) model          Structured
+
+Latent Variables:
+                                     Estimate  Std.Err  z-value  P(>|z|)   Std.lv
+  employment =~                                                                  
+    number_of_jobs                      1.000                               0.715
+    income_frm_jbs                      0.463       NA                      0.331
+  housing =~                                                                     
+    housing_space                       1.000                                  NA
+    sanittn_f_hsng                     -0.001       NA                         NA
+  education =~                                                                   
+    quality_f_dctn                      1.000                               0.024
+    lt_12_educatin                      0.006       NA                      0.000
+    btwn_12_18_dct                      2.295       NA                      0.055
+    gt_18_educatin                      5.879       NA                      0.140
+  health =~                                                                      
+    psychlgcl_hlth                      1.000                               0.918
+    nmbr_f_hlthcr_                     -0.003       NA                     -0.003
+    qulty_f_hlthcr                      0.312       NA                      0.287
+  social_links =~                                                                
+    help_from_ngo                       1.000                               6.551
+    trust_on_ngo                        0.000       NA                      0.002
+    trst_n_lw_nfrc                      0.001       NA                      0.004
+  social_bridges =~                                                              
+    pssblty_f_fr__                      1.000                               0.009
+    frndshp_wth_hs                    481.499       NA                      4.527
+    marriage_t_hst                     -0.012       NA                     -0.000
+  social_bonds =~                                                                
+    bnd_wth_rhngy_                      1.000                               0.844
+    bnd_wth_nghbrs                      0.541       NA                      0.457
+    bond_with_mjhs                     -0.758       NA                     -0.640
+  language_and_cultural_knowledge =~                                             
+    nmbr_f_rlgs_fc                      1.000                               0.329
+    rmvl_f_rlgs_br                     -0.001       NA                     -0.000
+    culturl_mxblty                     -0.482       NA                     -0.159
+  safety_and_stability =~                                                        
+    intention_t_lv                      1.000                               0.235
+    imprvmnt_n_6ms                      1.597       NA                      0.375
+    feeling_bt_ftr                      2.567       NA                      0.602
+    number_of_vlnc                      1.730       NA                      0.406
+    fr_f_chldrn_sf                     -0.255       NA                     -0.060
+  rights_and_citizenship =~                                                      
+    repatritn_n_hm                      1.000                               0.739
+    return_to_home                      0.136       NA                      0.100
+    rights_in_home                      1.295       NA                      0.958
+  markers_and_means =~                                                           
+    education                           1.000                               0.079
+    employment                        267.033       NA                      0.701
+    housing                           311.924       NA                         NA
+    health                            333.748       NA                      0.683
+  social_connections =~                                                          
+    social_bonds                        1.000                               1.205
+    social_bridges                      0.002       NA                      0.167
+    social_links                        0.014       NA                      0.002
+  facilitators =~                                                                
+    lngg_nd_cltrl_                      1.000                               1.254
+    sfty_nd_stblty                     -0.605       NA                     -1.063
+  foundation =~                                                                  
+    rghts_nd_ctzns                      1.000                               1.000
+  Std.all
+         
+    0.735
+    0.445
+         
+       NA
+       NA
+         
+    0.024
+    0.002
+    0.509
+    1.131
+         
+    1.084
+   -0.014
+    0.331
+         
+   14.411
+    0.004
+    0.009
+         
+    0.032
+    4.518
+   -0.001
+         
+    0.302
+    0.427
+   -0.524
+         
+    0.663
+   -0.005
+   -0.231
+         
+    0.251
+    0.767
+    0.598
+    0.487
+   -0.183
+         
+    0.827
+    0.194
+    1.030
+         
+    0.079
+    0.701
+       NA
+    0.683
+         
+    1.205
+    0.167
+    0.002
+         
+    1.254
+   -1.063
+         
+    1.000
+
+Composites:
+                   Estimate  Std.Err  z-value  P(>|z|)   Std.lv  Std.all
+  integration <~                                                        
+    markers_nd_mns    0.000       NA                        NaN      NaN
+    social_cnnctns    0.000       NA                        NaN      NaN
+    facilitators      0.000       NA                        NaN      NaN
+    foundation        0.000       NA                        NaN      NaN
+
+Regressions:
+                   Estimate  Std.Err  z-value  P(>|z|)   Std.lv  Std.all
+  number_of_jobs ~                                                      
+    sex               0.071       NA                      0.071    0.036
+
+Covariances:
+                                    Estimate  Std.Err  z-value  P(>|z|)   Std.lv
+ .number_of_religious_facilities ~~                                             
+   .rmvl_f_rlgs_br                    -0.000       NA                     -0.000
+  markers_and_means ~~                                                          
+    social_cnnctns                    -0.000       NA                     -0.234
+    facilitators                       0.001       NA                      0.817
+    foundation                        -0.001       NA                     -0.706
+    integration                        0.000       NA                        NaN
+  social_connections ~~                                                         
+    facilitators                      -0.344       NA                     -0.821
+    foundation                         0.447       NA                      0.594
+    integration                        0.000       NA                        NaN
+  facilitators ~~                                                               
+    foundation                        -0.245       NA                     -0.804
+    integration                        0.000       NA                        NaN
+  foundation ~~                                                                 
+    integration                        0.000       NA                        NaN
+  Std.all
+         
+   -0.021
+         
+   -0.234
+    0.817
+   -0.706
+      NaN
+         
+   -0.821
+    0.594
+      NaN
+         
+   -0.804
+      NaN
+         
+      NaN
+
+Variances:
+                   Estimate  Std.Err  z-value  P(>|z|)   Std.lv  Std.all
+   .number_of_jobs    0.434       NA                      0.434    0.459
+   .income_frm_jbs    0.446       NA                      0.446    0.802
+   .housing_space     9.358       NA                      9.358    8.099
+   .sanittn_f_hsng    0.354       NA                      0.354    1.000
+   .quality_f_dctn    1.006       NA                      1.006    0.999
+   .lt_12_educatin    0.008       NA                      0.008    1.000
+   .btwn_12_18_dct    0.008       NA                      0.008    0.741
+   .gt_18_educatin   -0.004       NA                     -0.004   -0.278
+   .psychlgcl_hlth   -0.125       NA                     -0.125   -0.174
+   .nmbr_f_hlthcr_    0.038       NA                      0.038    1.000
+   .qulty_f_hlthcr    0.667       NA                      0.667    0.890
+   .help_from_ngo   -42.713       NA                    -42.713 -206.678
+   .trust_on_ngo      0.276       NA                      0.276    1.000
+   .trst_n_lw_nfrc    0.215       NA                      0.215    1.000
+   .pssblty_f_fr__    0.086       NA                      0.086    0.999
+   .frndshp_wth_hs  -19.493       NA                    -19.493  -19.408
+   .marriage_t_hst    0.027       NA                      0.027    1.000
+   .bnd_wth_rhngy_    7.078       NA                      7.078    0.909
+   .bnd_wth_nghbrs    0.935       NA                      0.935    0.817
+   .bond_with_mjhs    1.083       NA                      1.083    0.726
+   .nmbr_f_rlgs_fc    0.138       NA                      0.138    0.561
+   .rmvl_f_rlgs_br    0.004       NA                      0.004    1.000
+   .culturl_mxblty    0.447       NA                      0.447    0.947
+   .intention_t_lv    0.816       NA                      0.816    0.937
+   .imprvmnt_n_6ms    0.098       NA                      0.098    0.412
+   .feeling_bt_ftr    0.652       NA                      0.652    0.642
+   .number_of_vlnc    0.529       NA                      0.529    0.762
+   .fr_f_chldrn_sf    0.104       NA                      0.104    0.967
+   .repatritn_n_hm    0.253       NA                      0.253    0.316
+   .return_to_home    0.257       NA                      0.257    0.962
+   .rights_in_home   -0.052       NA                     -0.052   -0.061
+   .employment        0.260       NA                      0.508    0.508
+   .housing          -8.546       NA                         NA       NA
+   .education         0.001       NA                      0.994    0.994
+   .health            0.450       NA                      0.534    0.534
+   .social_links     42.920       NA                      1.000    1.000
+   .social_bridges    0.000       NA                      0.972    0.972
+   .social_bonds     -0.322       NA                     -0.453   -0.453
+   .lngg_nd_cltrl_   -0.062       NA                     -0.572   -0.572
+   .sfty_nd_stblty   -0.007       NA                     -0.130   -0.130
+   .rghts_nd_ctzns    0.000                               0.000    0.000
+    markers_nd_mns    0.000       NA                      1.000    1.000
+    social_cnnctns    1.034       NA                      1.000    1.000
+    facilitators      0.170       NA                      1.000    1.000
+    foundation        0.547       NA                      1.000    1.000
+    integration       0.000                                 NaN      NaN

@@ -5,7 +5,6 @@ from pprint import pprint
 
 dataset = pd.read_excel('../data/rohingya.xlsx')
 # print(dataset.columns)
-dataset.drop(columns=['lt_12_education'])
 dataset.dropna()
 
 def sem(name, data):
@@ -18,7 +17,7 @@ def sem(name, data):
                 # + sex
     housing     =~ housing_space + sanitation_of_housing
                 # + relocation_to_bhasanchar
-    education   =~ quality_of_education + lt_12_education + 12_18_education + gt_18_education
+    education   =~ quality_of_education + lt_12_education + between_12_18_education + gt_18_education
     health      =~ psychological_healthcare + number_of_healthcare_facilities + quality_of_healthcare
     
     social_links    =~ help_from_ngo + trust_on_ngo + trust_on_law_enforcement

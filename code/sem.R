@@ -2,6 +2,8 @@ library(lavaan)
 library(tidyverse)
 library(psych)
 library(readxl)
+library(semPlot)
+library(tidySEM)
 
 rohingya.df <- read_excel('../data/rohingya.xlsx', sheet = 'Sheet1')
 # View(rohingya.df)
@@ -16,7 +18,7 @@ model.desc <- '
               # + sex
   housing     =~ housing_space + sanitation_of_housing
               # + relocation_to_bhasanchar
-  education   =~ quality_of_education + lt_12_education + 12_18_education + gt_18_education
+  education   =~ quality_of_education + lt_12_education + between_12_18_education + gt_18_education
   health      =~ psychological_healthcare + number_of_healthcare_facilities + quality_of_healthcare
   
   social_links    =~ help_from_ngo + trust_on_ngo + trust_on_law_enforcement
@@ -46,3 +48,5 @@ model.desc <- '
 '
 
 model.fit <- lavaan::sem(model = model.desc, data = rohingya.df)
+lavaan::summary(model.fit, standardized=TRUE)
+graph_sem(model.fit)

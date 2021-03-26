@@ -11,7 +11,7 @@ rohingya.df <- rohingya.df %>% select(!id)
 ##### framework domains match column name #####
 # means and markers
 
-employment <- c('number_of_jobs', 'income_from_jobs', 'sex')
+employment <- c('number_of_jobs', 'income_from_jobs',) # 'sex'
 housing <- c('housing_space', 'sanitation_of_housing', 'relocation_to_bhasanchar')
 education <- c('lt_12_education', '12_18_education', 'gt_18_education', 
                'quality_of_education')
@@ -33,15 +33,15 @@ language.cultural.knowledge <- c('cultural_mixability',
 safety.stability <- c('stress', 'improvement_in_6mos', 
                       'discussion_about_violent_groups', 'number_of_violence', 
                       'number_of_sexual_harrassment', 'fear_of_children_safety',
-                      'fear_of_missing_children', 'knowledge_of_missing_children',
+                       'knowledge_of_missing_children',
                       'intention_to_leave', 'fear_of_leaving_again', 
                       'feeling_about_future')
 # foundation
 rights.and.citizenship <- c('rights_in_home', 'return_to_home', 
                             'repatriation_in_home')
 
-efa.df <- rohingya.df %>% select(all_of(health))
-View(efa.df)
+efa.df <- rohingya.df %>% select(all_of(social.bridges))
+# View(efa.df)
 psych::pca(efa.df, nfactors = length(names(efa.df)))
 
 # cor(rohingya.df)

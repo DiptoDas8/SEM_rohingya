@@ -52,7 +52,7 @@
             "Do you think the situation in the camp is better now or 6 months ago?": "improvement_in_6mos",
             "How often do you hear people talking about violent groups in the camp?": "discussion_about_violent_groups",
             "How do you think violence in the camp has changed over time?": "number_of_violence",
-            "Do you think that sexual harassment in the camp happens often?": "number_of_sexual_harrassment",
+            "Do you think that sexual harassment in the camp happens often?": "number_of_sexual_harassment",
             "How afraid are you to leave your child unattended in the camp after it gets dark?": "fear_of_children_safety",
             "Do you think that there are Rohingya families whose child has gone missing since they moved to Bangladesh?": "fear_of_missing_children",
             "Do you personally know any Rohingya families whose child has gone missing since they moved to this camp?": "knowledge_of_missing_children",

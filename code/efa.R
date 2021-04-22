@@ -40,7 +40,7 @@ safety.stability <- c('stress', 'improvement_in_6mos',
 rights.and.citizenship <- c('rights_in_home', 'return_to_home', 
                             'repatriation_in_home')
 
-efa.df <- rohingya.df %>% select(all_of(social.bridges))
+efa.df <- rohingya.df %>% select(all_of(housing))
 # View(efa.df)
 psych::pca(efa.df, nfactors = length(names(efa.df)))
 

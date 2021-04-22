@@ -96,6 +96,13 @@ efa <- function(variables){
 
 efa(employment)
 
+# Anything with cross loadings should be given to the scale with the
+# biggest loading, but if the two values are close, then the item should
+# probably be dropped because it is going to mess up your measurement model.
+# Items with negative weights should be checked to make sure they are sensible.
+# You may need to reverse code them, but you should keep some documentation
+# of all decisions like that.
+
 #**************************************#
 ####  Structural equation modeling  ####
 #**************************************#
@@ -149,14 +156,6 @@ health.model <- '
   health =~ psychological_healthcare + quality_of_healthcare + number_of_healthcare_facilities
 '
 cfa.and.plot(health.model)  # lavaan WARNING: some estimated lv variances are negative
-
-# Anything with cross loadings should be given to the scale with the
-# biggest loading, but if the two values are close, then the item should
-# probably be dropped because it is going to mess up your measurement model.
-# Items with negative weights should be checked to make sure they are sensible.
-# You may need to reverse code them, but you should keep some documentation
-# of all decisions like that.
-
 
 
 # # Don't try to do any SEM or CFA until you've gotten a feel for the 

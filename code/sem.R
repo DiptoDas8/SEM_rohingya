@@ -138,9 +138,12 @@ social.bridges.model <- '
   # this model is a bit more complex than the previous one by combining social links, bridges, and bonds
   social.links =~ trust_on_law_enforcement + trust_on_ngo + help_from_ngo
   social.bridges =~ friendship_with_host + possibility_of_friendship_with_host
-  social.bonds =~ bond_with_majhis + bond_with_neighbors
+  # social.bonds =~ bond_with_majhis + bond_with_neighbors
+  
+  # if we have links and bridges, lavaan WARNING: some estimated ov variances are negative
+  # if we have all three components, lavaan WARNING: some estimated lv variances are negative
 '
-cfa.and.plot(social.bridges.model)  # lavaan WARNING: some estimated lv variances are negative
+cfa.and.plot(social.bridges.model)
 
 # I am confused about these following simple models
 education.model <- '
